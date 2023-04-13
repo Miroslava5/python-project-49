@@ -4,13 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["Miroslava"]
 readme = "README.md"
-packages = [{include = "brain_games"}, ]
+packages = [{include = "Brain_games"}, ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "Brain_games.scripts.brain_games:main"
 
 [build-system]
 requires = ["poetry-core"]
