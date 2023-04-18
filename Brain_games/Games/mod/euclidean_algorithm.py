@@ -10,4 +10,4 @@ def find_gcd(a, b):
 
 
 if __name__ == '__main__':
-    find_gcd()
+    pass

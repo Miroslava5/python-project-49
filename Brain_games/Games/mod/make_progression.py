@@ -11,4 +11,4 @@ def make_arithmetic():
 
 
 if __name__ == '__main__':
-    make_arithmetic()
+    pass

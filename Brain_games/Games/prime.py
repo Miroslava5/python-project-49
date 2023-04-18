@@ -24,4 +24,4 @@ def do_game_prime():
 
 
 if __name__ == '__main__':
-    do_game_progression()
+    do_game_prime()
