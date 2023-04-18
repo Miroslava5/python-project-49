@@ -1,6 +1,6 @@
 import prompt
 from random import randint
-from Brain_games.Games.check import do_check
+from Brain_games.Games.mod.check import do_check
 
 
 def do_game_calc():

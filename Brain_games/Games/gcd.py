@@ -1,7 +1,7 @@
 import prompt
 from random import randint
-from Brain_games.Games.check import do_check
-from Brain_games.Games.euclidean_algorithm import find_gcd
+from Brain_games.Games.mod.check import do_check
+from Brain_games.Games.mod.euclidean_algorithm import find_gcd
 
 
 def do_game_gcd():
