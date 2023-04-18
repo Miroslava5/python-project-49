@@ -2,6 +2,7 @@ import prompt
 from random import randint
 from Brain_games.Games.check import do_check
 
+
 def do_game_even():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -16,7 +17,8 @@ def do_game_even():
             print(do_check(answer, right_answer))
             count += 1
         else:
-            return print(do_check(answer, right_answer)+ f"Let's try again, {name}!")
+            print(do_check(answer, right_answer), f"Let's try again, {name}!")
+            return
     return print(f'Congratulations, {name}!')
 
 
